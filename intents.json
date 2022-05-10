@@ -1,0 +1,667 @@
+{
+   "intents":[
+      {
+         "tag":"greeting",
+         "patterns":[
+            "Hi there",
+            "How are you",
+            "Is anyone there?",
+            "Hey",
+            "Hola",
+            "Hello",
+            "Good day"
+         ],
+         "responses":[
+            "Hello, thanks for asking",
+            "Good to see you again",
+            "Hi there, how can I help?"
+         ],
+         "context":[
+            ""
+         ]
+      },
+     
+      {
+         "tag":"goodbye",
+         "patterns":[
+            "Bye",
+            "See you later",
+            "Goodbye",
+            "Nice chatting to you, bye",
+            "Till next time"
+         ],
+         "responses":[
+            "See you!",
+            "Have a nice day",
+            "Bye! Come back again soon."
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"thanks",
+         "patterns":[
+            "Thanks",
+            "Thank you",
+            "That's helpful",
+            "Awesome, thanks",
+            "Thanks for helping me"
+         ],
+         "responses":[
+            "Happy to help!",
+            "Any time!",
+            "My pleasure"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"noanswer",
+         "patterns":[
+            
+         ],
+         "responses":[
+            "Sorry, can't understand you",
+            "Please give me more info",
+            "Not sure I understand"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"options",
+         "patterns":[
+            "How you could help me?",
+            "What you can do?",
+            "What help you provide?",
+            "How you can be helpful?",
+            "What support is offered"
+         ],
+         "responses":[
+            "I am a personal assistant of Narottam Choyal and I am a Chatbot",
+            "I am a helthcare advisor and Supporter.",
+            "Call the Doctor - +91 12345689"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"Doctor",
+         "patterns":[
+            "Which type of doctor",
+            "types of doctor",
+            "Doctor",
+            "all doctor"
+         ],
+         "responses":[
+            "Cardiologists , Dermatologists , Family Physicians, Nephrology -- kidney disorders , Gastroenterology -- digestive system disorder ,Orthopedics -- bone and connective tissue disorders,Ophthalmology -- eye disorders and surgery"
+            
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"Cardiologists contect no",
+         "patterns":[
+            
+            "Cardiologists doctor Contect no",
+            "what is Cardiologists doctor Contect no "
+            
+         ],
+         "responses":[
+            "Cardiologists doctor Contect no is : +91 123456789"
+           
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"Cardiologists doctor",
+         "patterns":[
+            "Cardiologists doctor",
+            "who is cardiologists doctor"
+            
+            
+         ],
+         "responses":[
+            "A cardiologist is a physician who's an expert in the care of your heart and blood vessels. They can treat or help you prevent a number of cardiovascular problems. They can also specialize in specific areas, such as abnormal heart rhythms, heart failure or heart problems you've had since birth"
+           
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"Dermatologists Contect no",
+         "patterns":[
+            
+            "Dermatologists doctor Contect no",
+            "what is Dermatologists doctor Contect no "
+            
+         ],
+         "responses":[
+            "Dermatologists doctor Contect no is : +91 123456789"
+           
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"Dermatologists doctor",
+         "patterns":[
+            "Dermatologists doctor",
+            
+            "who is dermatologists doctor "
+            
+         ],
+         "responses":[
+            "Dermatology is the branch of medicine dealing with the skin. It is a speciality with both medical and surgical aspects. A dermatologist is a specialist medical doctor who manages diseases related to skin, hair, nails, and some cosmetic problems."
+           
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":" Family Physicians contect no",
+         "patterns":[
+            
+            " Family Physicians Contect no",
+            "what is  Family Physicians Contect no "
+            
+         ],
+         "responses":[
+            " Family Physicians doctor Contect no is : +91 123456789"
+           
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":" Family Physicians doctor",
+         "patterns":[
+            " Family Physicians doctor",
+           
+            "who is  Family Physicians doctor "
+            
+         ],
+         "responses":[
+            " Family medicine (FM) is a clinical medical specialty which is devoted to the comprehensive health care for people of all ages and provides continuing and comprehensive health care for the individual and family across all ages, genders, disease, and parts of the body."
+           
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"Nephrology -- kidney disorders Contect no",
+         "patterns":[
+            
+            "Nephrology doctor Contect no",
+            "what is Nephrology doctor Contect no "
+            
+         ],
+         "responses":[
+            "Nephrology doctor Contect no is : +91 123456789"
+           
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"Nephrology -- kidney disorders doctor",
+         "patterns":[
+            "Nephrology doctor",
+            
+            "who is Nephrology doctor  "
+            
+         ],
+         "responses":[
+            "A nephrologist is a medical professional who specializes in treating kidney diseases and medical conditions that impact the body due to improper functioning of kidneys."
+           
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"Gastroenterology -- digestive system disorder Contect no ",
+         "patterns":[
+            
+            "Gastroenterology doctor Contect no",
+            "what is Gastroenterology doctor Contect no "
+            
+         ],
+         "responses":[
+            "Gastroenterology doctor Contect no is : +91 123456789"
+           
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"Gastroenterology -- digestive system disorder  doctor",
+         "patterns":[
+            "Gastroenterology doctor",
+            
+            "who is Gastroenterology doctor "
+            
+         ],
+         "responses":[
+            "According to the American College of Gastroenterology, Gastroenterology is the study of the normal function and diseases of the esophagus, stomach, small intestine, colon and rectum, pancreas, gallbladder, bile ducts and liver."
+           
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"Orthopedics -- bone Contect no",
+         "patterns":[
+            
+            "Orthopedicsdoctor Contect no",
+            "what is Orthopedics doctor Contect no "
+            
+         ],
+         "responses":[
+            "Orthopedics doctor Contect no is : +91 123456789"
+           
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"Orthopedics -- bone doctor",
+         "patterns":[
+            "Orthopedics doctor",
+            "who is Orthopedics doctor"
+
+         ],
+         "responses":[
+            "An orthopedic surgeon is trained in the diagnosis and treatment of spinal disorders, arthritis, sports injuries, trauma, and fractures. An orthopedic surgeon may complete additional training with a Spine Fellowship and specialize in spine surgery."
+           
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"connective tissue disorders Contect no",
+         "patterns":[
+           
+            "connective tissue disorders doctor Contect no",
+            "what is connective tissue disorders doctor Contect no "
+            
+         ],
+         "responses":[
+            "connective tissue disorders doctor Contect no is : +91 123456789"
+           
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"connective tissue disorders doctor",
+         "patterns":[
+            "connective tissue disorders doctor",
+            "who is connective tissue disorders doctor "
+         ],
+         "responses":[
+            "Connective tissue disease refers to a group of disorders involving the protein-rich tissue that supports organs and other parts of the body."
+           
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"Ophthalmology -- eye disorders Contect no",
+         "patterns":[
+           
+            "Ophthalmology doctor Contect no",
+            "what is Ophthalmology doctor Contect no "
+            
+         ],
+         "responses":[
+            "Ophthalmology doctor Contect no is : +91 123456789"
+           
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"Ophthalmology -- eye disorders doctor",
+         "patterns":[
+            "Ophthalmology doctor",
+            "who is Ophthalmology doctor"
+         ],
+         "responses":[
+            "An ophthalmologist is a medical doctor (MD) who specialises in eye and vision care. Ophthalmologists are trained to perform eye tests, diagnose and treat disease, prescribe medications and perform eye surgery."
+           
+         ],
+         "context":[
+            ""
+         ]
+      },
+
+      {
+         "tag":"Diseases",
+         "patterns":[
+            "types of disease",
+            "Disease"
+         ],
+         "responses":[
+            "Infection , deficiency diseases , hereditary diseases ,  physiological diseases , Fever , cold and cough, eye-care, headache, heart-attack"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"Infection",
+         "patterns":[
+            "Infection",
+            "skin infection"
+            
+         ],
+         "responses":[
+            "Your skin is your body's largest organ. It has many different functions, including covering and protecting your body. It helps keep germs out. But sometimes the germs can cause a skin infection. This often happens when there is a break, cut, or wound on your skin. It can also happen when your immune system is weakened, because of another disease or a medical treatment.",
+            "Bacterial infections are often treated with topical antibiotics applied directly to the skin or with oral antibiotics. If the strain of bacteria is resistant to treatment, treating the infection may require intravenous antibiotics administered in the hospital"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"Infection treatment",
+         "patterns":[
+            
+            "skin problem treatment"
+         ],
+         "responses":[
+            " Skin related problem treatment for click link : - https://www.medicalnewstoday.com/articles/317999"
+         ],
+         "context":[
+            ""
+         ]
+      },
+     {
+         "tag":"deficiency diseases",
+         "patterns":[
+            "deficiency diseases",
+            "What is deficiency diseases "
+            
+         ],
+         "responses":[
+            "A deficiency disease can be defined as a disease that is caused by the lack of essential nutrients or dietary elements such as vitamins and minerals in the human body."
+          
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"deficiency diseases treatment",
+         "patterns":[
+            
+            "deficiency diseases treatment"
+         ],
+         "responses":[
+            " deficiency diseases treatment For click :- https://www.google.com/search?q=deficiency+diseases+treatment+note&rlz=1C1YTUH_enIN959IN959&ei=PldEYvqbJ7KOseMP3YWOiAg&ved=0ahUKEwj6sv7h9O32AhUyR2wGHd2CA4EQ4dUDCA4&uact=5&oq=deficiency+diseases+treatment+note&gs_lcp=Cgdnd3Mtd2l6EAMyCAghEBYQHRAeMggIIRAWEB0QHjoHCAAQRxCwAzoFCAAQgAQ6BggAEAcQHjoECAAQHjoGCAAQBRAeOgQIIRAKSgQIQRgASgQIRhgAUO8BWI41YPU7aANwAXgAgAGpBYgBixiSAQkwLjcuNS41LTGYAQCgAQHIAQjAAQE&sclient=gws-wiz"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":" hereditary diseases",
+         "patterns":[
+            "hereditary diseases",
+            "What is hereditary diseases "
+            
+         ],
+         "responses":[
+            "A hereditary disease is often described as something that “runs in the family.” It is passed down from one or both parents to a child, who may then pass it to his or her children."
+            
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":" hereditary diseases treatment",
+         "patterns":[
+            
+            "hereditary diseases treatment"
+         ],
+         "responses":[
+            "hereditary diseases treatment For click :- https://www.nature.com/articles/nrg1829"
+         ],
+         "context":[
+            ""
+         ]
+      },
+
+      {
+         "tag":" physiological diseases",
+         "patterns":[
+            "physiological diseases",
+            "What is physiological diseases "
+           
+         ],
+         "responses":[
+            "A physiological disorder is a condition in which the organs in the body malfunction causes illness. Examples are Asthma, Glaucoma, Diabetes."
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":" physiological diseases treatment",
+         "patterns":[
+            
+            "physiological diseases treatment"
+         ],
+         "responses":[
+           "physiological diseases treatment For click :- https://www.mayoclinic.org/diseases-conditions/mental-illness/diagnosis-treatment/drc-20374974 "
+         ],
+         "context":[
+            ""
+         ]
+      },
+
+      {
+         "tag":" Fever",
+         "patterns":[
+            "Fever",
+            "What is Fever "
+            
+         ],
+         "responses":[
+            "A fever is a temporary increase in your body temperature, often due to an illness. Having a fever is a sign that something out of the ordinary is going on in your body."
+            
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":" Fever treatment",
+         "patterns":[
+            
+            "Fever treatment"
+         ],
+         "responses":[
+           
+            " Fever treatment For click :- https://www.mayoclinic.org/diseases-conditions/fever/in-depth/fever/art-20050997#:~:text=C)%20taken%20orally-,Rest%20and%20drink%20plenty%20of%20fluids.,other%20unusual%20signs%20or%20symptoms.&text=If%20you're%20uncomfortable%2C%20take,IB%2C%20others)%20or%20aspirin.  "
+         ],
+         "context":[
+            ""
+         ]
+      },
+
+      {
+         "tag":" Cold and Cough",
+         "patterns":[
+            "cold and cough",
+            "cold",
+            "cough",
+            "What is Cold and Cough "
+            
+         ],
+         "responses":[
+            "The common cold is medically referred to as a viral upper respiratory tract infection. Symptoms of the common cold may include cough, sore throat, low-grade fever, nasal congestion, runny nose, and sneezing."
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":" Cold and Cough treatment",
+         "patterns":[
+            
+            "cold and cough treatment"
+         ],
+         "responses":[
+             " Cold and Cough treatment For click :- https://www.mayoclinic.org/diseases-conditions/common-cold/in-depth/cold-remedies/art-20046403 "
+         ],
+         "context":[
+            ""
+         ]
+      },
+
+      {
+         "tag":" eyecare",
+         "patterns":[
+            "eye-care",
+            "What is eye-care "
+         ],
+         "responses":[
+            "EYE-CARE:- They focus on regular vision care and they: Perform eye exams and vision tests. Prescribe and fit eyeglasses and contact lenses. Monitor medically related eye conditions related to diseases like diabetes"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":" eyecare treatment",
+         "patterns":[
+            
+            "eye-care treatment"
+         ],
+         "responses":[
+           " eye-care treatment For click :- https://medlineplus.gov/eyecare.html "
+         ],
+         "context":[
+            ""
+         ]
+      },
+
+      {
+         "tag":"headache",
+         "patterns":[
+            "headache",
+            "What is headache"
+         ],
+         "responses":[
+            "Headache is the most common form of pain. It's a major reason people miss days at work or school or visit the doctor. The most common type of headache is a tension headache. Tension headaches are due to tight muscles in your shoulders, neck, scalp and jaw. They are often related to stress, depression or anxiety."
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"headache treatment",
+         "patterns":[
+            
+            "headache treatment"
+         ],
+         "responses":[
+           " headache treatment For click :- https://www.mayoclinic.org/diseases-conditions/chronic-daily-headaches/in-depth/headaches/art-20047375 "
+         ],
+         "context":[
+            ""
+         ]
+      },
+
+      {
+         "tag":" heartattack",
+         "patterns":[
+            "heartattack",
+            "What is heartattack"
+         ],
+         "responses":[
+            "A heart attack occurs when the flow of blood to the heart is blocked. The blockage is most often a buildup of fat, cholesterol and other substances, which form a plaque in the arteries that feed the heart (coronary arteries). Sometimes, a plaque can rupture and form a clot that blocks blood flow."
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":" heartattack treatment",
+         "patterns":[
+            
+            "heartattack treatment"
+         ],
+         "responses":[
+           " heart-attack treatment For click :- https://www.mayoclinic.org/diseases-conditions/heart-attack/diagnosis-treatment/drc-20373112"
+         ],
+         "context":[
+            ""
+         ]
+      },
+   
+      {
+         "tag":"health care",
+         "patterns":[
+            "How you could help me?",
+            "What you can do?",
+            "What help you provide?",
+            "How you can be helpful?",
+            "What support is offered",
+            "doctor name "
+         ],
+         "responses":[
+            "Which type you want heath care help",
+            "Contect : Narottam Choyal +91 12345678",
+            "If you want list of disease list so please Type :- types of disease",
+            "If you want list of Doctors list so please Type :- types of doctor"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      
+      {
+         "tag":"joke",
+         "patterns":[
+            "tell me a joke",
+            "can you tell me a joke",
+            "make some fun",
+            "make me laugh and do some funny joke",
+            "tell me a joke"
+         ],
+         "responses":[
+            " https://en.wikipedia.org/wiki/Joke"
+      
+
+         ],
+         "context":[
+            ""
+         ]
+      }
+   ]
+}
